@@ -1,0 +1,27 @@
+h1,
+h2,
+h3,
+p,
+ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
