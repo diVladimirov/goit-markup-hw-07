@@ -61,13 +61,6 @@
   font-size: 14px;
   line-height: 1.71;
 }
-.footer-logo {
-  color: var(--footer-primary-color);
-  font-family: Raleway;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
 
 .footer-link {
   margin-top: 9px;
@@ -115,44 +108,4 @@
 
 .subcribe-newsletter-input::placeholder {
   color: rgba(255, 255, 255, 0.6);
-}
-
-.email-subscribe-button {
-  position: relative;
-  display: inline-block;
-  min-width: 200px;
-  padding: 10px 29px;
-  background-color: var(--accent-color);
-  color: var(--seconadry-accent-color);
-  font-family: inherit;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  text-align: left;
-  border-radius: 4px;
-  border-width: 0px;
-  border-color: transparent;
-  transition: background-color var(--main-transition-duration)
-    var(--main-transition-timing-function);
-  cursor: pointer;
-}
-
-.email-subscribe-button:hover,
-.email-subscribe-button:focus {
-  background-color: #188ce8;
-}
-
-.email-subscribe-button::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 28px;
-  margin-left: 10px;
-  display: block;
-  width: 24px;
-  height: 24px;
-  background-image: url("../images/footer-img/button-icon-send.svg");
-  color: var(--seconadry-accent-color);
 }

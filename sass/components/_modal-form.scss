@@ -92,33 +92,6 @@
   text-align: center;
 }
 
-.modal-btn {
-  display: inline-block;
-  min-width: 200px;
-  padding: 10px 32px;
-  background-color: var(--accent-color);
-  color: var(--seconadry-accent-color);
-  font-family: inherit;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 1.875;
-  letter-spacing: 0.06em;
-  text-align: center;
-  border-radius: 4px;
-  border-width: 0px;
-  border-color: transparent;
-  transition: background-color var(--main-transition-duration)
-    var(--main-transition-timing-function) box-shadow
-    var(--main-transition-duration) var(--main-transition-timing-function);
-  cursor: pointer;
-}
-
-.modal-btn:focus,
-.modal-btn:hover {
-  background-color: #188ce8;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
-
 .modal-form-checkbox:checked + .modal-form-checkbox-label::before {
   background-image: url("../images/modal-window/chekbox-checked.svg");
   background-color: var(--accent-color);
