@@ -75,10 +75,11 @@ img {
 
 .section {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
-.section.what-we-do {
-  padding-bottom: 94px;
+.section.features {
+  padding-bottom: 0px;
 }
 
 .section-title {
@@ -140,8 +141,7 @@ img {
   cursor: pointer;
 }
 
-.primary-button:hover,
-.primary-button:focus {
+.primary-button:hover, .primary-button:focus {
   background-color: #188ce8;
 }
 
@@ -166,8 +166,7 @@ img {
   cursor: pointer;
 }
 
-.email-subscribe-button:hover,
-.email-subscribe-button:focus {
+.email-subscribe-button:hover, .email-subscribe-button:focus {
   background-color: #188ce8;
 }
 
@@ -207,8 +206,7 @@ img {
   cursor: pointer;
 }
 
-.filter-button-style:focus,
-.filter-button-style:hover {
+.filter-button-style:focus, .filter-button-style:hover {
   background-color: var(--accent-color);
   color: var(--seconadry-accent-color);
   -webkit-box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
@@ -247,16 +245,15 @@ img {
   transition: fill var(--main-transition-duration) var(--main-transition-timing-function), border-color var(--main-transition-duration) var(--main-transition-timing-function), filter var(--main-transition-duration) var(--main-transition-timing-function), -webkit-filter var(--main-transition-duration) var(--main-transition-timing-function);
 }
 
-.clients-list-item:not(:last-child) {
-  margin-right: 30px;
-}
-
-.clients-link:focus,
-.clients-link:hover {
+.clients-link:focus, .clients-link:hover {
   fill: var(--accent-color);
   border-color: var(--accent-color);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
           filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.clients-list-item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .backdrop {
@@ -295,6 +292,11 @@ img {
           box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
+.backdrop.is-hidden .modal {
+  -webkit-transform: translate(-50%, -50%) scale(0.1);
+          transform: translate(-50%, -50%) scale(0.1);
+}
+
 .close-btn {
   position: absolute;
   top: 8px;
@@ -319,14 +321,8 @@ img {
   transition: fill var(--main-transition-duration) var(--main-transition-timing-function);
 }
 
-.close-btn:hover,
-.close-btn:focus {
+.close-btn:hover, .close-btn:focus {
   fill: var(--accent-color);
-}
-
-.backdrop.is-hidden .modal {
-  -webkit-transform: translate(-50%, -50%) scale(0.1);
-          transform: translate(-50%, -50%) scale(0.1);
 }
 
 .modal-form-title {
@@ -934,10 +930,6 @@ img {
 
 .subcribe-newsletter-input::placeholder {
   color: rgba(255, 255, 255, 0.6);
-}
-
-.section.portfolio {
-  padding-bottom: 94px;
 }
 
 .section-title.filter-variations {

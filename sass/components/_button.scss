@@ -17,10 +17,11 @@
   transition: background-color var(--main-transition-duration)
     var(--main-transition-timing-function);
   cursor: pointer;
-}
-.primary-button:hover,
-.primary-button:focus {
-  background-color: #188ce8;
+
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
 }
 
 .email-subscribe-button {
@@ -42,25 +43,24 @@
   transition: background-color var(--main-transition-duration)
     var(--main-transition-timing-function);
   cursor: pointer;
-}
 
-.email-subscribe-button:hover,
-.email-subscribe-button:focus {
-  background-color: #188ce8;
-}
-
-.email-subscribe-button::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  right: 28px;
-  margin-left: 10px;
-  display: block;
-  width: 24px;
-  height: 24px;
-  background-image: url("../images/footer-img/button-icon-send.svg");
-  color: var(--seconadry-accent-color);
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 28px;
+    margin-left: 10px;
+    display: block;
+    width: 24px;
+    height: 24px;
+    background-image: url("../images/footer-img/button-icon-send.svg");
+    color: var(--seconadry-accent-color);
+  }
 }
 
 .filter-button-style {
@@ -83,11 +83,12 @@
     box-shadow var(--main-transition-duration)
       var(--main-transition-timing-function);
   cursor: pointer;
-}
-.filter-button-style:focus,
-.filter-button-style:hover {
-  background-color: var(--accent-color);
-  color: var(--seconadry-accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
+
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+    color: var(--seconadry-accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+      0px 2px 2px rgba(0, 0, 0, 0.12);
+  }
 }
