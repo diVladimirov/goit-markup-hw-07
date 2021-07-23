@@ -1,3 +1,7 @@
+.section.features {
+  padding-bottom: 0px;
+}
+
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -6,11 +10,12 @@
 .features-list-item {
   width: 270px;
   margin-right: 30px;
+
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
-.features-list-item:last-child {
-  margin-right: 0px;
-}
 .features-card {
   display: flex;
   align-items: center;
@@ -33,10 +38,10 @@
 
 .what-we-do-list-item {
   margin-right: 30px;
-}
 
-.what-we-do-list-item:last-child {
-  margin-right: 0px;
+  &:last-child {
+    margin-right: 0px;
+  }
 }
 
 .what-we-do-background {

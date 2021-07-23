@@ -3,21 +3,17 @@
   padding-bottom: 94px;
 }
 
-.section.features {
-  padding-bottom: 0px;
-}
-
 .section-title {
   color: var(--secondary-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-}
 
-.section-title.description {
-  margin-bottom: 10px;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+  &.description {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+  }
 }
