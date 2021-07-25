@@ -12,11 +12,11 @@
   }
 }
 
-.what-we-do-background {
+.solutions__thumb {
   position: relative;
 }
 
-.what-we-do-position {
+.solutions__overlay {
   position: absolute;
   left: 0;
   bottom: 0;
@@ -26,13 +26,13 @@
   align-items: center;
   justify-content: center;
   background-color: rgba(47, 48, 58, 0.8);
-}
 
-.what-we-do-description {
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: var(--seconadry-accent-color);
+  &--description {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--seconadry-accent-color);
+  }
 }
