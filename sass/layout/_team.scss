@@ -38,34 +38,3 @@
     margin-right: 0px;
   }
 }
-
-.team-social-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.team-social-link {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  background-color: var(--primary-background-color);
-  fill: #afb1b8;
-  transition: fill var(--main-transition-duration)
-      var(--main-transition-timing-function),
-    background-color var(--main-transition-duration)
-      var(--main-transition-timing-function);
-
-  &:hover,
-  &:focus {
-    fill: var(--seconadry-accent-color);
-    background-color: var(--accent-color);
-  }
-}
-
-.team-social-icon {
-  width: 20px;
-  height: 20px;
-}
