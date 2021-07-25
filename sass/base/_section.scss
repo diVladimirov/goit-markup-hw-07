@@ -5,15 +5,8 @@
 
 .section-title {
   color: var(--secondary-text-color);
+  text-align: center;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-
-  &.description {
-    margin-bottom: 10px;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
-  }
 }

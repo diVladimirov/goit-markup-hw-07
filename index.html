@@ -17,34 +17,36 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header-style">
-      <div class="container header-position">
-        <nav class="main-nav">
-          <a href="./index.html" lang="en" class="logo header-logo link"
+    <header class="header__style--border">
+      <div class="container header__wraper--position">
+        <nav class="nav">
+          <a href="./index.html" lang="en" class="logo nav__logo"
             ><span class="logo-accent">Web</span>Studio</a
           >
-          <ul class="page-nav list">
-            <li class="page-nav-list">
-              <a href="./index.html" class="link current">Студия</a>
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="./index.html" class="nav__link nav__link--current"
+                >Студия</a
+              >
             </li>
-            <li class="page-nav-list">
-              <a href="./portfolio.html" class="link">Портфолио</a>
+            <li class="nav__item">
+              <a href="./portfolio.html" class="nav__link">Портфолио</a>
             </li>
-            <li class="page-nav-list"><a href="" class="link">Контакты</a></li>
+            <li class="nav__item"><a href="" class="nav__link">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="page-contacts list">
-          <li class="page-contacts-list">
-            <a href="mailto:info@devstudio.com" class="link">
-              <svg class="header-icon" width="16px" height="12px">
+        <ul class="header-contacts__list">
+          <li class="header-contacts__item">
+            <a href="mailto:info@devstudio.com" class="header-contacts__link">
+              <svg class="header-contacts__icon" width="16px" height="12px">
                 <use href="./images/sprite.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="page-contacts-list">
-            <a href="tel:+380961111111" class="link"
-              ><svg class="header-icon" width="10px" height="16px">
+          <li class="header-contacts__item">
+            <a href="tel:+380961111111" class="header-contacts__link"
+              ><svg class="header-contacts__icon" width="10px" height="16px">
                 <use href="./images/sprite.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -57,7 +59,7 @@
       <!--Баннер-->
       <section class="hero">
         <div class="container">
-          <h1 class="hero-title">
+          <h1 class="hero__title">
             Эффективные решения<br />
             для вашего бизнеса
           </h1>
@@ -70,51 +72,51 @@
       <section class="section features">
         <div class="container">
           <h2 class="visually-hidden">Особенности</h2>
-          <ul class="features-list list">
-            <li class="features-list-item">
-              <div class="features-card">
-                <svg class="features-icon">
+          <ul class="features__list">
+            <li class="features__item">
+              <div class="features__thumb">
+                <svg class="features__icon">
                   <use href="./images/sprite.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="section-title description">Внимание к деталям</h3>
-              <p>
+              <h3 class="features__subtitle">Внимание к деталям</h3>
+              <p class="features__descr">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="features-list-item">
-              <div class="features-card">
-                <svg class="features-icon">
+            <li class="features__item">
+              <div class="features__thumb">
+                <svg class="features__icon">
                   <use href="./images/sprite.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="section-title description">Пунктуальность</h3>
-              <p>
+              <h3 class="features__subtitle">Пунктуальность</h3>
+              <p class="features__descr">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="features-list-item">
-              <div class="features-card">
-                <svg class="features-icon">
+            <li class="features__item">
+              <div class="features__thumb">
+                <svg class="features__icon">
                   <use href="./images/sprite.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="section-title description">Планирование</h3>
-              <p>
+              <h3 class="features__subtitle">Планирование</h3>
+              <p class="features__descr">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="features-list-item">
-              <div class="features-card">
-                <svg class="features-icon">
+            <li class="features__item">
+              <div class="features__thumb">
+                <svg class="features__icon">
                   <use href="./images/sprite.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="section-title description">Современные технологии</h3>
-              <p>
+              <h3 class="features__subtitle">Современные технологии</h3>
+              <p class="features__descr">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
               </p>
@@ -125,9 +127,9 @@
       <!--Чем мы занимаемся-->
       <section class="section">
         <div class="container">
-          <h2 class="section-title center">Чем мы занимаемся</h2>
-          <ul class="what-we-do-list list">
-            <li class="what-we-do-list-item">
+          <h2 class="section-title">Чем мы занимаемся</h2>
+          <ul class="solutions_list">
+            <li class="solutions__item">
               <div class="what-we-do-background">
                 <img
                   src="./images/index/what-we-doing/keyboard.jpg"
@@ -140,7 +142,7 @@
                 </div>
               </div>
             </li>
-            <li class="what-we-do-list-item">
+            <li class="solutions__item">
               <div class="what-we-do-background">
                 <img
                   src="./images/index/what-we-doing/notebook.jpg"
@@ -153,7 +155,7 @@
                 </div>
               </div>
             </li>
-            <li class="what-we-do-list-item">
+            <li class="solutions__item">
               <div class="what-we-do-background">
                 <img
                   src="./images/index/what-we-doing/tablet.jpg"
@@ -435,7 +437,7 @@
     <footer class="footer-style">
       <div class="container footer-position">
         <div class="main-footer-information">
-          <a href="./index.html" lang="en" class="logo footer-logo link"
+          <a href="./index.html" lang="en" class="logo footer__logo"
             ><span class="logo-accent">Web</span>Studio</a
           >
           <address class="address-style">
