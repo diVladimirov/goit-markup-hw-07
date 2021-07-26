@@ -39,7 +39,12 @@
   }
 }
 
-.footer-link__title,
+.footer-join {
+  margin-left: 70px;
+  width: 206px;
+}
+
+.footer-links__title,
 .footer-subscribe__title {
   font-weight: bold;
   font-size: 14px;
@@ -50,12 +55,12 @@
   color: #ffffff;
 }
 
-.subcribe-newsletter {
+.footer-subscribe {
   margin-right: 0;
   margin-left: auto;
 }
 
-.subcribe-newsletter-input {
+.footer-subscribe__input {
   padding: 14px 16px;
   margin-right: 12px;
   width: 383px;
